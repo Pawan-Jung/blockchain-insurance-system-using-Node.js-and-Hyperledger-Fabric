@@ -29,7 +29,7 @@
       console.log('Transaction has been submitted');
 
       console.log('Submit Transaction: CreatePolicy');
-      await contract.submitTransaction('CreatePolicy', '1', 'John Doe', '1000', '2021-01-01', '2021-12-31', 'Auto', 'Car', '100000');
+      await contract.submitTransaction('CreatePolicy', '1', 'laado bahadur', '1000', '2021-01-01', '2021-12-31', 'Auto', 'Car', '100000');
       console.log('Transaction has been submitted');
 
       console.log('Submit Transaction: MakeClaim');
