@@ -29,11 +29,11 @@
       console.log('Transaction has been submitted');
 
       console.log('Submit Transaction: CreatePolicy');
-      await contract.submitTransaction('CreatePolicy', '1', 'laado bahadur', '1000', '2021-01-01', '2021-12-31', 'Auto', 'Car', '100000');
+      await contract.submitTransaction('CreatePolicy', '1', 'laado bahadur', '1000', '2026-04-01', '2026-11-01', 'Auto', 'house', '100000');
       console.log('Transaction has been submitted');
 
       console.log('Submit Transaction: MakeClaim');
-      await contract.submitTransaction('MakeClaim', '1', '2021-05-01', '2021-05-30', '2500');
+      await contract.submitTransaction('MakeClaim', '1', '2026-09-11', '2026-09-28', '5700');
       console.log('Transaction has been submitted');
 
       console.log('Evaluate Transaction: GetPolicy');
